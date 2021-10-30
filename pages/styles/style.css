@@ -1,0 +1,52 @@
+html {
+  background-color: gainsboro;
+  padding: 25px 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  text-align: center;
+}
+
+h3 {
+  color: green;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+thead {
+  background-color: gray;
+}
+
+.colorize_month_january {
+  padding: 5px;
+  background-color: #964b00;
+}
+
+.colorize_month_february {
+  padding: 5px;
+  background-color: #c2a8c2;
+}
+
+.colorize_month_all {
+  padding: 7px;
+  background: linear-gradient(
+    112deg,
+    rgba(150, 75, 0, 1) 0%,
+    rgba(194, 168, 194, 1) 9%,
+    rgba(0, 191, 255, 1) 18%,
+    rgba(255, 20, 147, 1) 27%,
+    rgba(40, 114, 51, 1) 36%,
+    rgba(255, 255, 0, 1) 45%,
+    rgba(255, 127, 80, 1) 54%,
+    rgba(255, 128, 0, 1) 63%,
+    rgba(90, 0, 157, 1) 72%,
+    rgba(0, 7, 255, 1) 81%,
+    rgba(255, 0, 0, 1) 90%,
+    rgba(0, 0, 255, 1) 100%
+  );
+}
