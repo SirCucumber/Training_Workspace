@@ -1,6 +1,12 @@
-# training_workspace
-Training_Workspace
+# Training Workspace :muscle:
 
-Changelog:
+Рабочее пространство для статистики домашних тренировок. Создано для автоматизации, упрощения и отказа от табличек в Googlesheets.
 
-30.10.2021 -- Create repo
+---
+
+## Changelog :scroll:
+
+- **Version 0.0.1 (30.10.2021)**
+
+  - Создание репозитория и веток
+  - Набросок шаблона главной страницы
