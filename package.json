@@ -1,10 +1,10 @@
 {
   "name": "training-workspace",
   "version": "0.0.1",
-  "description": "Рабочее пространство для статистики домашних тренировок. Создано для автоматизации, упрощения и отказа от табличек в Googlesheets.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,10 @@
   "homepage": "https://github.com/SirCucumber/training_workspace#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^6.0.13",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.15"
   }
 }
